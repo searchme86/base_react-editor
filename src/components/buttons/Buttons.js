@@ -25,11 +25,11 @@ export const SearchBtn = styled(Button)`
 export function SearchButton({ btnText }) {
   return (
     <SearchBtn>
-      <div class='icon' />
+      <div className='icon' />
       {btnText}
       <img
         src={BtnSearchImg}
-        class='icon color_i'
+        className='icon color_i'
         style={{ width: '13px', height: '13px', filter: 'invert(100%)' }}
       />
     </SearchBtn>
@@ -38,13 +38,13 @@ export function SearchButton({ btnText }) {
 
 export function ToggleButton({ btnText }) {
   return (
-    <div class='toggle_wrap'>
+    <div className='toggle_wrap'>
       <span>{btnText}</span>
-      <label class='check_toggle'>
+      <label className='check_toggle'>
         <input type='checkbox' checked />
-        <div class='check_toggle_style'></div>
-        <span class='toggle_t'>On</span>
-        <span class='toggle_f'>Off</span>
+        <div className='check_toggle_style'></div>
+        <span className='toggle_t'>On</span>
+        <span className='toggle_f'>Off</span>
       </label>
     </div>
   );
