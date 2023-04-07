@@ -5,7 +5,7 @@ import {
   SeconDaryButton,
   BasicIconBtn,
   BasicButton,
-} from '../../Assets/Styles/Button.style';
+} from '../../assets/styles/Button.style';
 
 export const ModalWrapper = styled.div`
   position: fixed;
